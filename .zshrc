@@ -5,7 +5,7 @@
 # Documentation: https://github.com/romkatv/zsh4humans/blob/v5/README.md.
 
 # Commands to Execute at Startup
- fastfetch -c ~/.config/fastfetch/arch.jsonc
+ fastfetch
 
 # Periodic auto-update on Zsh startup: 'ask' or 'no'.
 # You can manually run `z4h update` to update everything.
@@ -107,7 +107,6 @@ alias cp='cp -i'
 alias mkdir='mkdir -p'
 alias mv='mv -i'
 alias yi=yazi
-alias fastfetch='fastfetch -c ~/.config/fastfetch/arch.jsonc'
 # Add flags to existing aliases.
 alias ls="${aliases[ls]:-ls} -A"
 alias git='function _git(){ if [ "$1" = "clone" ]; then shift; gh repo clone "$@"; else command git "$@"; fi; }; _git'
