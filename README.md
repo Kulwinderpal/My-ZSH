@@ -13,6 +13,16 @@ else
   sh -c "$(wget -O- https://raw.githubusercontent.com/romkatv/zsh4humans/v5/install)"
 fi
 
-After thats done you need to install bat if your on Arch,NixOs,and Opensuse on Ubuntu,Debian,and Fedora you need rust-bat (for more distros see https://repology.org/project/bat-cat/versions)
 
-You also need fastfetch which in most Distros that Ship it in their Official repos is fastfetch on debian 12/Ubuntu 24.04 and lower you have to get a Deb from https://github.com/fastfetch-cli/fastfetch/releases
+Step 2: Install bat
+
+After that, you need to install bat. The installation method depends on your distribution:
+
+    Arch, NixOS, and openSUSE: Install bat from your package manager.
+    Ubuntu, Debian, and Fedora: Install rust-bat. For more distributions, see Repology.
+
+Step 3: Install fastfetch
+
+You also need fastfetch. In most distributions that ship it in their official repositories, you can install it directly.
+
+    On Debian 12/Ubuntu 24.04 and lower, you will need to download a .deb package from the fastfetch releases page.
