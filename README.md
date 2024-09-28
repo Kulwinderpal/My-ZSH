@@ -12,7 +12,7 @@ if command -v curl >/dev/null 2>&1; then
 else
   sh -c "$(wget -O- https://raw.githubusercontent.com/romkatv/zsh4humans/v5/install)"
 fi
-
+```
 
 Step 2: Install bat
 
