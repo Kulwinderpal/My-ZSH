@@ -107,6 +107,7 @@ alias cp='cp -i'
 alias mkdir='mkdir -p'
 alias mv='mv -i'
 alias yi=yazi
+alias grep=rg
 # Add flags to existing aliases.
 alias ls="${aliases[ls]:-ls} -A"
 alias git='function _git(){ if [ "$1" = "clone" ]; then shift; gh repo clone "$@"; else command git "$@"; fi; }; _git'
