@@ -28,3 +28,8 @@ You also need fastfetch. In most distributions that ship it in their official re
     On Debian 12/Ubuntu 24.04 and lower, you will need to download a .deb package from https://github.com/fastfetch-cli/fastfetch/releases.
 
 for more Distros see https://repology.org/project/fastfetch/versions    
+
+Step 4: Install ripgrep
+
+To Install ripgrep install it using your package manager.
+On Most Linux Distros its packaged as ripgrep (For More Distros see https://repology.org/project/ripgrep/versions )
