@@ -18,7 +18,7 @@ Step 2: Install bat
 
 After that, you need to install bat. The installation method depends on your distribution:
 
-    Arch, NixOS, and openSUSE: Install bat from your package manager.
+    Arch, NixOS, and openSUSE: Install bat.
     Ubuntu, Debian, and Fedora: Install rust-bat. For more distributions, see https://repology.org/project/bat-cat/versions.
 
 Step 3: Install fastfetch
