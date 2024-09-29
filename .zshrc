@@ -100,13 +100,10 @@ compdef _directories md
 
 # Define aliases.
 alias tree='tree -a -I .git'
-alias vi=vim
-alias yay=paru
 alias cat='bat --paging=never'
 alias cp='cp -i'
 alias mkdir='mkdir -p'
 alias mv='mv -i'
-alias yi=yazi
 alias grep=rg
 # Add flags to existing aliases.
 alias ls="${aliases[ls]:-ls} -A"
